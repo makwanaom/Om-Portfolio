@@ -275,3 +275,47 @@ li a {
     } */
 
 /* } */ 
+
+@media screen and (max-width: 320px){
+    
+    .font-for-home{ 
+        font-size: 20px;
+        margin: 150px 30px 30px 40px;
+        padding: 3em  0 0 -20px;
+    }
+
+    .imog{
+        margin:  -70px -30px  10px 100px;
+        padding-top:00px;
+    }
+
+    .download-resume-button{
+        margin: 250px 160px;
+    }
+
+    .name-design{
+        min-width: fit-content;
+    }
+}
+
+@media screen and (max-width: 400px){
+    
+    .font-for-home{ 
+        font-size: 20px;
+        margin: 150px 30px 30px 40px;
+        padding: 3em  0 0 -20px;
+    }
+
+    .imog{
+        margin:  -70px -30px  10px 100px;
+        padding-top:00px;
+    }
+
+    .download-resume-button{
+        margin: 250px 160px;
+    }
+
+    .name-design{
+        min-width: fit-content;
+    }
+}
