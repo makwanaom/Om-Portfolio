@@ -22,7 +22,7 @@ function App() {
           <Homeee open ={openSidebar} onClose ={() => setopenSidebar(false)}/>
 
       </div>
-      <Routes>
+      <Routes basename="/tothepoint_login">
       <Route path="/" element={<Layout />} >
       <Route index element={<Home/>}/>
       
