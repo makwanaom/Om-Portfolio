@@ -24,7 +24,7 @@ function App() {
       </div>
       <Routes basename="/Om-Portfolio">
       <Route path="/Om-Portfolio" element={<Layout />} >
-      <Route index element={<Home/>}/>
+      <Route path='/Om-Portfolio' index element={<Home/>}/>
       
       </Route>
       <Route path="/about" element={<About />} />
