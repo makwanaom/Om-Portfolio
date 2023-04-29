@@ -22,8 +22,8 @@ function App() {
           <Homeee open ={openSidebar} onClose ={() => setopenSidebar(false)}/>
 
       </div>
-      <Routes basename="/tothepoint_login">
-      <Route path="/" element={<Layout />} >
+      <Routes basename="/Om-Portfolio">
+      <Route path="/Om-Portfolio" element={<Layout />} >
       <Route index element={<Home/>}/>
       
       </Route>
